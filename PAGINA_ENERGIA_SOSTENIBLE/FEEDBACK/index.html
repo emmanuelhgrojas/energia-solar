@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+
+    <body>
+        <div class="contenedor">
+            <h1> Comparte tu idea</h1>
+
+            <form id="formSugerencia">
+                <div class="campo">
+                    <label for="titulo">Título de la sugerencia</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+
+                <div class="campo">
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar sugerencia</button>
+            </form>
+
+            <div id="mensaje" class="mensaje"></div>
+        </div>
+    </body>
+    <a href="../inicio.html" class="btn-inicio">Inicio</a>
+
+</html>
