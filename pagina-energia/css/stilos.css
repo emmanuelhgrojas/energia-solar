@@ -1,0 +1,79 @@
+/* Ajuste por si el Navbar es fijo */
+body {
+    padding-top: 0; 
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.nav-link:hover, .footer a:hover{
+    color: #46A7FA !important;
+}
+.navbar{
+    background-color: #eaeaea;
+}
+
+.footer{
+    background-color: #eaeaea;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.hero-section {
+    /* Ruta de tu imagen */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/paneles.jpeg');    
+    /* Ajustes para pantalla completa */
+    height: 50vh; /* Ocupa el 100% de la altura de la ventana */
+    background-size: cover; /* La imagen cubre todo el espacio sin deformarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: efecto Parallax */    
+    /* Para asegurar que el contenido se vea sobre el fondo */
+    display: flex;
+    align-items: center;
+}
+
+.hero-sections{
+     /* Ruta de tu imagen */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/paneles.jpeg');    
+    /* Ajustes para pantalla completa */
+    height: 20vh; /* Ocupa el 100% de la altura de la ventana */
+    background-size: cover; /* La imagen cubre todo el espacio sin deformarse */
+    background-position: 120% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: efecto Parallax */    
+    /* Para asegurar que el contenido se vea sobre el fondo */
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 2rem !important;
+    text-align: center;
+    padding: 20px;
+}
+.texto{
+    font-size: 16px !important;
+    text-align: justify;
+    padding: 20px;
+}
+
+.texto-footer{
+    text-align: justify;
+}
+
+.border-dashed {
+    border: 2px dashed #6c757d !important;
+    cursor: pointer;
+}
+
+.border-dashed:hover {
+    background-color: #495057 !important;
+    transition: 0.3s;
+}
+
+.star-rating { font-size: 2rem; color: #ddd; cursor: pointer; }
+.star-rating .bi-star-fill.active { color: #ffc107; }
+.feedback-card { border: none; border-radius: 15px; }
